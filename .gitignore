@@ -1,0 +1,31 @@
+# AWS Access Keys
+*.csv
+*_accessKeys.csv
+*_accesskeys.csv
+
+# AWS Credentials
+.aws/
+credentials
+config
+
+# Key Pairs
+*.pem
+*.ppk
+*.key
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
