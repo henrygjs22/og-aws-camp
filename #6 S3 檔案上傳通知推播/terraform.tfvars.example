@@ -1,0 +1,9 @@
+# 複製為 terraform.tfvars 並填入實際值
+# cp terraform.tfvars.example terraform.tfvars
+
+aws_region = "ap-east-2"
+project_name = "s3-upload-notify"
+
+# Discord Webhook URL（必填）
+# 取得方式：Discord 頻道 → 設定 → 整合 → Webhook → 新增 Webhook
+discord_webhook_url = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"
